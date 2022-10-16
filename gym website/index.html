@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITXGYM</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: url('img/training-g09f64618a_1920.jpg');
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        border: 0px solid red;
+        position: absolute;
+        top: 42px;
+        left: 51px;
+    }
+
+    .left img {
+        width: 132px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 15px;
+        line-height: 29px;
+    }
+
+    .mid {
+        display: block;
+        margin: 39px auto;
+        width: 33%;
+        < !-- border: 2px solid rgb(219, 205, 9);
+        -->
+    }
+
+    .right {
+        position: absolute;
+        top: 44px;
+        right: 34px;
+        display: inline-block;
+        < !-- border: 2px solid rgb(44, 240, 14);
+        -->
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        padding: 4px 14px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 0px solid #da9999;
+        margin: 79px 443px;
+        padding: 38px 47px;
+        width: 30%;
+        border-radius: 43px
+    }
+
+    .form-grp input {
+        margin: 9px 4px;
+        padding: 2px;
+        width: 50%;
+        border: 2px solid red;
+        display: block;
+        text-align: center;
+    }
+
+    #submit {
+        margin: 8px 181px;
+        padding: 4px 14px;
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        border-radius: 0px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    #submit:hover {
+        background-color: grey;
+    }
+
+    h3 {
+        margin: 15px -9px;
+        padding: 3px;
+        width: 294px;
+        display: block;
+        font-size: 25px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/icon.png.png" alt="">
+            <div>FITNESS CLUB</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>JOIN THE BEST GYM IN DELHI</h3>
+        <form action="noaction.php">
+            <div class="form-grp">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <button id="submit" class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
